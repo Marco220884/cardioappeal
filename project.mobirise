@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Discendenti.html",
+    "currentPage": "Docenti.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -23,7 +23,8 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 42,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -38,6 +39,12 @@
       "components": [
         {
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#475577",
+              "text-align": "right"
+            }
+          },
           "_anchor": "footer1-2",
           "_params": {
             "paddingTop": 2,
@@ -51,13 +58,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 All Rights Reserverd. Design by cardiologia.unicz.it",
-          "_styles": {
-            "P": {
-              "color": "#475577",
-              "text-align": "right"
-            }
-          }
+          "text": "Copyright (c) 2017 All Rights Reserverd. Design by cardiologia.unicz.it"
         },
         {
           "_inherit": "msg-box5",
@@ -359,14 +360,18 @@
               "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
               "media": {
                 "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/ilaria-160x160.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
-                  "active": true
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
-              "authorName": "Davide Ursetta",
+              "authorName": "Ilaria Ciaccio",
               "authorBio": "User"
             },
             {
@@ -380,7 +385,7 @@
                   "active": true
                 }
               },
-              "authorName": "Luigi Mancuso",
+              "authorName": "Carol Filippis",
               "authorBio": "User"
             },
             {
@@ -394,21 +399,25 @@
                   "active": true
                 }
               },
-              "authorName": "Ilaria Ciaccio",
+              "authorName": "Luigi Mancuso",
               "authorBio": "User"
             },
             {
               "text": "<p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</p>",
               "media": {
                 "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/davide-160x160.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
-                  "active": true
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
-              "authorName": "Karol",
+              "authorName": "Davide Ursetta",
               "authorBio": "Developer"
             }
           ],
@@ -417,6 +426,9 @@
             "count": "4",
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -426,10 +438,7 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": true,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
           "title": "Discendenti",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -559,55 +568,96 @@
             "Theme"
           ],
           "_name": "testimonials2",
+          "_styles": {
+            ".card-block P": {
+              "text-align": "left"
+            },
+            ".card-block": {
+              "text-align": "left"
+            }
+          },
           "testimonial": [
             {
-              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "text": "<p>Ciro Indolfi è Professore Ordinario di Cardiologia, Direttore dell’Unità Operativa di Cardiologia – Emodinamica – UTIC, Direttore del Dipartimento di Scienze Mediche e Chirurgiche dell’Università Magna Græcia di Catanzaro, Direttore del Centro Regionale di Riferimento per il Trattamento Endovascolare delle Patologie Cardiovascolare presso il Campus di Germaneto.&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Si è laureato in Medicina e Chirurgia nel 1979 presso l’Università di Napoli. Nello stesso anno ha conseguito l’abilitazione all’esercizio della professione presso l’Università degli Studi di Napoli. &nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Nel 1982 si è specializzato in Malattie dell’Apparato Cardiovascolare presso l’Università di Firenze. Nel 1985 si è specializzato in Medicina dello Sport presso l’Università Federico II di Napoli. Molto importante per la formazione scientifica è stata l’esperienza negli Stati Uniti d’America. Infatti, nel 1984 è stato visiting Scientist presso il Laboratorio di cateterismo cardiaco del NIH, Bethesda, MD, U.S.A. E’ stato dal 1986 al 1987 assistente presso la Divisione di Cardiologia dell’Università della California, San Diego, La Jolla, U.S.A., diretta da Dr. John Ross Jr., dove si è dedicato allo studio dell’ischemia miocardica. È stato Presidente della Società Italiana di Cardiologia invasiva (2001-03) e Presidente della Sezione Calabrese della Società Italiana di Cardiologia (2002-2004 e 2007-2008). Presidente della Sezione Calabrese della Società Italiana di Cardiologia Invasiva (2005.2007) E’ membro del Consiglio Direttivo della SIC (2004-2006).E’ membro del Comitato per le Sezioni Regionali della SIC. Responsabile del Centro Studi della Società Italiana di Cardiologia Invasiva. Editor dell’ edizione Italiana del Cath Sap dell’ American Colllege of Cardiology. Membro della commissione del Minimal Data Setting della Scietà Europea di Cardiologia. Revisore delle linee guida dell’ angioplastica Coronarica della Società Europea di Cardiologia 2005. E’ stato presidente della Genecor Foundation. E’ presidente della FINSIC (2015-2017).&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Ha conseguito i seguenti riconoscimenti: Research Awards: 1987 Società Italiana di Cardiologia; 89-91 Squibb Award; 1990 SIC. Ha ricevuto un grant dalla NATO (Grant CRG 910437 1990-1991) ed un Educational Grant of the European Society of Cardiology (1995).&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Il Prof. Indolfi è membro delle più importanti società scientifiche tra cui: SIC, AHA, ESC, ACCP. È Fellow dell’American College of Cardiology dal 1993 e dell’ European Society of Cardiology dal 2000, del GISE dal 2003. È stato direttore scientifico e fondatore del giornale Emodinamica. È membro dell’ Editorial Board di Basic Research in Cardiology. È Referee delle seguenti riviste: Circulation, Circulation Research, Journal American College of Cardiology, Bas. Res. Cardiol, AjP, Nature Medicine. Journal of Clinical Investigation.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">La sua attività di ricerca è documentata dai manoscritti pubblicati su riviste “peer reviewed”, l’attività didattica comprende pubblicazione di testi di Cardiologia, lezioni agli studenti della facoltà di medicina, agli specializzandi della Scuola di Specializzazione in Cardiologia ed inviti alla partecipazione, come oratore, in importanti Congressi in Europ, negli Stati Unitie in Asia.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Il 25 Aprile 2006 è stato insignito dal Presidente Ciampi del titolo di Ufficiale della Repubblica al Merito.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">L’attività clinica del prof. Indolfi è documentata dalla sua attività di cardiologo clinico (ecocardiografia, unità coronarica ed emodinamica) con particolare enfasi per la cardiologia invasiva ed interventistica (procedure effettuate ~ 25.000). Ha effettuato la prima TAVI in Calabria ed attualmente il Centro Cardiologico diretto dal Prof. Indolfi effettua interventi di impianto percutaneo della valvola aortica e riparazione percutanea della valvola mitrale.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Il Prof. Indolfi è autore di importanti studi sul sistema nervoso simpatico, sull’ischemia miocardica, su TAVI, sullo stenting coronarico, sulla ristenosi e sui drug eluting stents. Nel 2006 il Prof. Indolfi partecipato all’organizzazione logistica e sanitaria del nuovo Policlinico presso il Campus di Germaneto, ritenuto dal punto di vista tecnologico ed organizzativo uno dei Centri leader in Italia. Negli ultimi anni il Prof. Indolfi si è particolarmente dedicato all’organizzazione di sistemi sanitari complessi in Cardiologia, organizzando ex-novo nel 2000 il primo Centro Regionale pubblico di Cardiologia Interventistica nella Divisione di Cardiologia che ha iniziato il trattamento interventistico dell’infarto miocardico acuto nella regione Calabria.</span></p>",
               "media": {
                 "image": {
-                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/ciro-indolfi-159x160.png",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
-                  "active": true
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
               "authorName": "Ciro Indolfi",
               "authorBio": "User"
             },
             {
-              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "text": "Professore Associato di Chirurgia Cardiaca ed in servizio assistenziale presso l’Azienda Ospedaliero-Universitaria “Mater Domini” di Catanzaro dove ha eseguito oltre 1500 interventi di chirurgia cardiaca,vascolare e toracica in qualità di primo operatore.&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Laurea in Medicina e Chirurgia presso l’ Università “Federico II” di Napoli, Specialista in Chirurgia Toracica (Università di Napoli). Contrattistista presso la Cattedra di Cardiochirurgia della Facoltà di Medicina e Chirurgia dell’Università di Reggio Calabria dal 1989 al 1990. Ricercatore Universitario di Chirurgia Cardiaca dal 1990 al 2006 presso la Facoltà di Medicina e Chirurgia dell’Università “Magna Graecia di Catanzaro”. Nel 1991 è stato “Medecin Visiteur” presso i Centri di Chirurgia Cardiotoracica e Vascolare dell’Institut Mediterraneen de Cardiologie di Marsiglia e del Centre Cardiothoracique di Monaco-Montecarlo.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Dal 1992 al 1993 è stato “Resident Etranger” presso il Centre Cardiothoracique di Monaco-Montecarlo dove si è dedicato allo studio e al trattamento delle complicanze dell’infarto del miocardio ed in modo particolare dell’aneurisma ventricolare sinistro. Fellow dell’American College of Angiology e dell’International College of Angiology. Responsabile progetti confinziati dal Ministero dell’Università e della Ricerca nell’ambito di linee di ricerca basate soprattutto sugli effetti della circolazione extracorporea durante interventi di chirurgia cardiaca.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Docente di Chirurgia Cardiaca, Chirurgia Vascolare, Chirurgia Toracica, Fisiologia dell’Apparato Cardiovascolare e Cardiologia Pediatrica e Neonatale nei corsi di laurea di Medicina e Chirurgia, Infermieristica,Tecnico della Fisiopatologia Cardiocircolatoria e Perfusione Cardiovascolare, Professioni Sanitarie Tecniche Assistenziali e nelle Scuole di Specializzazione in Cardiochirurgia, Chirurgia Vascolare, Pediatria, Cardiologia, Malattie dell’Apparato Respiratorio presso l’Università Magna Graecia di Catanzaro. Direttore della Scuola di Specializzazione in Cardiochirurgia Università “Magna Graecia” di Catanzaro Autore di 138 lavori scientifici, di cui 81 su riviste con “peer review”, di 138 comunicazioni scientifiche, relazioni su invito e moderazioni a congressi nazionali ed internazionali e di 1 monografia.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">“Reviewer” delle seguenti riviste: Expert Review of Medical Devices, CHEST, European Journal of Cardiothoracic Surgery, Heart, Journal of Cardiovascular Medicine, Journal of Cardiothoracic Surgery “Editorial Board Member” The Open Cardiovascular and Thoracic Surgery Journal.</span>",
               "media": {
                 "image": {
-                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/pasquale-mastroroberto-119x160.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
-                  "active": true
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
-              "authorName": "Suffian A.",
+              "authorName": "Pasquale Mastroroberto",
               "authorBio": "User"
             },
             {
-              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "text": "<p>Il Prof. Antonio Curcio è nato a Napoli il 19 Giugno del 1976. Si è laureato presso l’Universita’ degli Studi di Napoli “Federico II” nel 2000 con il massimo dei voti e la lode, ed ha conseguito la specializzazione in Cardiologia nel 2005 con il massimo dei voti e la lode presso l’Universita’ degli Studi di Catanzaro. Nel 2002 è risultato vincitore del premio giovani ricercatori presso il Congresso Internazionale sulla Rivascolarizzazione Miocardica tenutosi all'Abbazia di Spineto (SI) per il lavoro dal titolo: “Il solo polimero degli stents coated induce apoptosi delle cellule muscolari lisce”. Nel 2003 è risultato vincitore del primo premio SIC-Societa' Italiana di Cardiologia- per il progetto dal titolo: “Modifier genes nello scompenso cardiaco”. Dal 2004 al 2006 è stato Research Associate del Department of Medicine, Cell Biology and Genetics della DUKE University, NC, USA, presso il Laboratorio del Dottor Howard A. Rockman. Nel 2007 è stato vincitore del primo premio del Centro per la lotta contro l’infarto – Fondazione Onlus, per il progetto dal titolo: “Nanotecnologie, polimeri biodegradabili ed approcci molecolari selettivi per prevenire la trombosi dei DES.” È stato postdoc presso il Dipartimento di Elettrofisiologia Clinica e Cardiostimolazione diretto dal Dottor Carlo Pappone al San Raffaele Hospital di Milano dal 2006 al 2008. Nel 2009 è stato insignito del titolo di Dottore in Biotecnologie Mediche presso l’Universita’ degli Studi di Catanzaro. Ha conseguito il Master in Cardiologia Interventistica ed Emodinamica presso la Scuola di Specializzazione in Cardiologia dell’Universita’ Magna Graecia di Catanzaro. È professore associato con afferenza al Dipartimento di Scienze Mediche e Chirurgiche-Direttore Professor Ciro Indolfi- presso l’Universita’ degli Studi di Catanzaro “Magna Graecia”. È visiting doctor presso l’Universita’ di Pavia-Fondazione Salvatore Maugeri dal 2 Gennaio 2012; la collaborazione con il Laboratorio di Cardiologia Molecolare della Professoressa Silvia G. Priori ha portato al conseguimento del grant RF‐2011‐02348444 dal titolo: “Inherited arrhythmias: clinical characterization, genetic geography and experimental studies in the Calabria Region isolate.” Ha conseguito il premio Ellade 2015 per la Comunicazione.&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">L'attivita' assistenziale è documentata da oltre 300 procedure/anno suddivise in tilt test, cardioversioni elettriche esterne, tests provocativi farmacologici, studi elettrofisiologici intracavitari, procedure di ablazione transcatetere mediante radiofrequenza, impianto di pacemakers, defibrillatori, pacemakers biventricolari, dispositivi subcutanei per monitoraggio e terapia, cateterismi transettali, mappaggio elettroanatomico per la ricostruzione tridimensionale delle camere cardiache. È autore di oltre cinquanta pubblicazioni su prestigiose riviste scientifiche internazionali peer-reviewed nell’ambito della restenosi post-angioplastica e dopo impianto di stent, dell’ipertrofia cardiaca, dei meccanismi molecolari e fisiopatologici responsabili del rimodellamento dopo infarto del miocardio, delle aritmie cardiache, delle nanobiotecnologie, dei microRNA, delle cardiopatie aritmogene ereditarie, dei nuovi anticoagulanti orali, di bioinformatica, di proteomica, dei defibrillatori/cardioverter impiantabili.</span></p><p><span style=\"font-size: 1.125rem; line-height: 2;\">Relazioni a congressi internazionali</span></p><p>&nbsp; &nbsp; 2009 The new frontiers in arrhythmias, Marrakech, Morocco</p><p>&nbsp; &nbsp; 2011 American Heart Association, Orlando, FL, USA</p><p>&nbsp; &nbsp; 2013 Iowa University, CaMKII alliance 2013 meeting, Fondation Leduq</p><p>&nbsp; &nbsp; 2013 American Heart Association, Dallas, TX, USA</p><p>&nbsp; &nbsp; 2014 XVI International Symposium on Progress in Clinical Pacing: Sleep Apnea and Ventricular Arrhythmias</p>",
               "media": {
                 "image": {
-                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/antonio-curcio-133x160.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
-                  "active": true
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
                 }
               },
-              "authorName": "Jhollman C.",
+              "authorName": "Antonio Curcio",
               "authorBio": "User"
+            },
+            {
+              "text": "<p>Il Dottor De Rosa Salvatore è nato a Napoli il 01/09/78, si è laureato in “Medicina e Chirurgia” il 15 Luglio 2002 con 110/110 e lode, presso l'Università degli Studi di Napoli “Federico II” con tesi in cardiologia dal titolo: “Il legame del Tissue Factor con il Fattore VII della coagulazione attiva un segnale intracellulare mediato dalle MAP-Kinasi in cellule muscolari lisce in coltura”.&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">Il suo interesse per la ricerca cardiovascolare inizia nel 2000, quando da studente in Medicina e Chirurgia, si reca presso la Cardiologia della Medizinische Klinik della Friederich-Wilehlm Universität, a Bonn, in Germania, diretta dal professor Bernt Lűderitz. Negli anni successivi frequenta il Dipartimento di Medicina Clinica, Scienze Cardiovascolari ed Immunologiche, dell''Università degli Studi di Napoli “Federico II” dove si dedica alle ricerche in tema di aterotrombosi, che avranno la loro conclusione nella redazione di una tesi di laurea sperimentale al termine degli studi. Tale attività è stata interrotta da brevi periodi di permanenza presso altre Università europee, come il centro di Cardiologia dell’Hospital Clinico Universitario di Santiago de Compostela, in Spagna diretto dal professor Josè Ramon Gonzales Juanatey, o la divisione di Cardiologia dell’Allgemeines Krankenhaus Wien, in Austria.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">In seguito alla Laurea in Medicina e Chirurgia, continua a lavorare nel settore della aterotrombosi ed il 31/10/2006 consegue il titolo di Specialista in Cardiologia, discutendo la tesi sperimentale dal titolo “La neopterina induce un fenotipo atero-trombotico in cellule endoteliali coronariche umane”. Proseguendo il percorso di ricerca intrapreso, il Dott. De Rosa consegue nel 2009 il titolo di Dottore in Ricerca (PhD), discutendo la tesi dal titolo “Effetti pro atero-trombotici della leptina su cellule endoteliali coronariche umane”.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Dall'ottobre 2008 al settembre 2011 il Dott. De Rosa ha lavorato presso la divisione di cardiologia del Dipartimento di Medicina interna (ZIM), III ClinicaMedica presso la Goethe University Frankfurt, Germany diretta dal professor Andreas M Zeiher, l’Excellence Cluster in CardioPulmunary Sciences (ECCPS) ed il Deutsches Herzforschungszentrum (DFZ), dedicandosi alla pratica cardiologia interventistica e concentrando la sua attività di ricerca sulla terapia cellulare cardiaca e sullo studio del ruolo dei microRNA nelle patologie cardiovascolari. Oggi è ricercatore universitario presso Università degli Studi Magna Graecia di Catanzaro. Dal 2011 svolge la propria attività di docenza presso la Scuola di Medicina e Chirurgia e presso la Scuola di Specializzazione in Malattie dell’Apparato Cardiovascolare dell’Università Magna Graecia di Catanzaro.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">Il Dott. De Rosa è autore di 50 lavori originali, pubblicati su riviste peer-reviewed, con un Impact Factor medio di 4.8, ed un h-index di 16. Ha ricevuto numerosi riconoscimenti scientifici per il suo lavoro tra i quali: il premio “Giovane Ricercatore” dell’Istituto Nazionale Ricerca Cardiovascolare nel 2004, il premio per la Ricerca Scientifica “SIC- FONDAZIONE AVENTIS-GRUPPO SANOFI AVENTIS” per l’anno 2007-2008, il premio per la ricerca scientifica della Società Italiana per la Prevenzione Cardiovascolare, assegnato nel corso del VI Congresso Nazionale SIPREC; Research Grant della European Association for Percutaneous Cardiovascular Interventions (EAPCI); il I premio Rudolf-Thauer, conferito dalla Deutsche Gesellschaft fuer Kardiologie (Società tedesca di cardiologia), in occasione del Congresso Annuale 2010 ed il premio Giovane Ricercatore della Società Italiana di Cardiologia.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">E’ revisore e membro dell’Editorial Board di numerose riviste scientifiche peer reviewed.&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">I suoi interessi principali, nel contesto della ricerca cardiovascolare, comprendono l’aterosclerosi ed in particolare lo studio della fisiopatologia delle sindromi coronariche acute e lo sviluppo di trombosi intravascolare, il ruolo dei microRNA nella fisiopatologia cardiovascolare ed i microRNA circolanti, quali biomarcatori per la stima e la stratificazione del rischio cardiovascolare.&nbsp;</span></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/salvatore-de-rosa-160x152.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Salvatore De Rosa",
+              "authorBio": "Developer"
             }
           ],
           "_anchor": "testimonials2-14",
           "_params": {
-            "count": 3,
+            "count": "4",
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -617,10 +667,7 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": true,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
           "title": "Docenti",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
@@ -812,7 +859,7 @@
           "_name": "testimonials2",
           "testimonial": [
             {
-              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "text": "<p>“HFM - una Applicazione di mHealth per il monitoraggio dello Scompenso Cardiaco”</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face3.jpg",
@@ -822,11 +869,11 @@
                   "active": true
                 }
               },
-              "authorName": "Abanoub S.",
+              "authorName": "Ilaria Ciaccio",
               "authorBio": "User"
             },
             {
-              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "text": "<p>“Dispositivi indossabili per il monitoraggio ambulatoriale del paziente con Scompenso Cardiaco”</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face1.jpg",
@@ -836,11 +883,11 @@
                   "active": true
                 }
               },
-              "authorName": "Suffian A.",
+              "authorName": "Carol Filippis",
               "authorBio": "User"
             },
             {
-              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "text": "<p>“Audicor: uno stetoscopio elettronico intelligente”</p>",
               "media": {
                 "image": {
                   "src": "@THEME_PATH@/components/_images/face2.jpg",
@@ -850,15 +897,32 @@
                   "active": true
                 }
               },
-              "authorName": "Jhollman C.",
+              "authorName": "Luigi Mancuso",
               "authorBio": "User"
+            },
+            {
+              "text": "<p>“CARDI@PP: l'applicazione che avvicina esigenze del paziente ed offerta sanitaria”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Davide Ursetta<br>",
+              "authorBio": "Developer"
             }
           ],
           "_anchor": "testimonials2-15",
           "_params": {
-            "count": 3,
+            "count": "4",
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -868,12 +932,9 @@
             "overlayOpacity": 0.2,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": false,
-            "showImages": true,
-            "showName": true,
-            "showBio": false
+            "showSubtitle": false
           },
-          "title": "WHAT OUR FANTASTIC USERS SAY",
+          "title": "Project Work",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         }
       ]

@@ -619,6 +619,12 @@ h6,
 #ext_menu-p .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#testimonials2-14 .card-block P {
+  text-align: left;
+}
+#testimonials2-14 .card-block {
+  text-align: left;
+}
 
 #footer1-k P {
   color: #475577;
