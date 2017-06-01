@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 55,
+    "uniqCompNum": 57,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@"
   },
@@ -927,7 +927,7 @@
           "title1": "Ilaria Ciaccio",
           "subtitle1": "Ingegnere Biomedico",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">CV</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">CV</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/carol-160x131.jpg",
@@ -943,7 +943,7 @@
           "title2": "Carol Filippis",
           "subtitle2": "Biotecnologa",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">CV</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">CV</a>",
           "media3": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/luigi-133x160.png",
@@ -959,7 +959,7 @@
           "title3": "Luigi Mancuso",
           "subtitle3": "Ingegnere Biomedico",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">CV</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">CV</a>",
           "media4": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/davide-160x160.jpg",
@@ -975,7 +975,7 @@
           "title4": "Davide Ursetta",
           "subtitle4": "Ingegnere Biomedico",
           "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">CV</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white\" data-toolbar=\"-mbrBtnMove\">CV</a>",
           "media5": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
